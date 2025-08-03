@@ -1,0 +1,32 @@
+[
+    {
+        "task": "I need a quick Python function to list all objects in an S3 bucket older than 30 days. Can you help me write something that scans a specific bucket and returns those file details?",
+        "format": "python",
+        "judging_criteria": "1. Must use boto3 library, 2. Calculate file age correctly using datetime, 3. Return list of objects matching age criteria, 4. Handle potential AWS credential/permission errors, 5. Include error handling for non-existent bucket"
+    },
+    {
+        "task": "Create a JSON configuration for an IAM policy that allows read-only access to a specific S3 bucket for a new developer role.",
+        "format": "json",
+        "judging_criteria": "1. Must use valid IAM policy syntax, 2. Include 's3:Get*' and 's3:List*' actions, 3. Specify exact bucket ARN, 4. Restrict to read-only permissions, 5. Use correct JSON structure with Version and Statement keys"
+    },
+    {
+        "task": "Write a regex to extract the request ID from a standard CloudWatch Lambda error log entry.",
+        "format": "regex",
+        "judging_criteria": "1. Must capture full request ID format, 2. Handle variations in log formats, 3. Work with standard AWS Lambda log patterns, 4. Correctly extract alphanumeric request ID, 5. Be compatible with Python re.search() method"
+    },
+    {
+        "task": "I want a Python script to rotate AWS IAM access keys for a specific user automatically.",
+        "format": "python",
+        "judging_criteria": "1. Use boto3 IAM client, 2. Create new access key before deleting old one, 3. Handle potential AWS permission errors, 4. Validate successful key rotation, 5. Include logging of key rotation events"
+    },
+    {
+        "task": "Develop a JSON structure for configuring a basic CloudWatch alarm for EC2 CPU utilization threshold.",
+        "format": "json",
+        "judging_criteria": "1. Include valid CloudWatch alarm configuration, 2. Specify EC2 metric correctly, 3. Define clear threshold and comparison operator, 4. Include alarm actions, 5. Use correct nested JSON structure"
+    },
+    {
+        "task": "Create a regex to parse EC2 instance ID from AWS resource tags or identifiers.",
+        "format": "regex",
+        "judging_criteria": "1. Match standard EC2 instance ID format (i-*), 2. Handle different prefix variations, 3. Capture full instance ID accurately, 4. Work with multiple context scenarios, 5. Be strict about character constraints"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "task": "Create a Python function to extract the AWS region from an ARN (Amazon Resource Name)"
+    },
+    {
+        "task": "Write a JSON schema to validate an AWS Lambda function configuration"
+    },
+    {
+        "task": "Develop a regular expression to match valid AWS EC2 instance types (e.g., t2.micro, m5.large)"
+    },
+    {
+        "task": "Create a Python function to convert an AWS CloudFormation template from YAML to JSON"
+    },
+    {
+        "task": "Write a JSON object representing a basic AWS IAM policy allowing S3 read-only access to a specific bucket"
+    }
+]

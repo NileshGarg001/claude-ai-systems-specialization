@@ -1,0 +1,26 @@
+[
+    {
+        "task": "Create a regex to validate an AWS S3 bucket name (lowercase, alphanumeric, 3-63 characters)",
+        "format": "regex"
+    },
+    {
+        "task": "Generate a JSON schema for an AWS Lambda function configuration",
+        "format": "json"
+    },
+    {
+        "task": "Write a Python function to extract region from an AWS ARN",
+        "format": "python"
+    },
+    {
+        "task": "Create a regex to match AWS EC2 instance IDs (starts with 'i-')",
+        "format": "regex"
+    },
+    {
+        "task": "Create a JSON object representing minimal IAM policy for S3 read access",
+        "format": "json"
+    },
+    {
+        "task": "Write a Python function to convert CloudWatch metric names to valid Python variable names",
+        "format": "python"
+    }
+]
